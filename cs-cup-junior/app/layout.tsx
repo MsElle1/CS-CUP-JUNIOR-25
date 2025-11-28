@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "CS CUP CAMBODIA 2025",
-  description: "The premier programming competition for university students.",
+  title: "CS CUP Junior 2025",
+  description: "The premier programming competition for junior developers",
 };
 
 export default function RootLayout({
