@@ -27,7 +27,7 @@ export default function Home() {
           <div className="logo">
             <div className="logo-text">
               <div className="logo-title">CS CUP</div>
-              <div className="logo-subtitle">Junior 2025</div>
+              <div className="logo-subtitle">CAMBODIA 2025</div>
             </div>
           </div>
           
@@ -45,7 +45,7 @@ export default function Home() {
         </nav>
 
         <div className="hero-content">
-          <h1 className="main-title">CS CUP JUNIOR</h1>
+          <h1 className="main-title">CS CUP CAMBODIA</h1>
           <h2 className="year">2025</h2>
           <p className="tagline">The premier programming competition for junior developers. Test your skills, compete with peers, and showcase your coding excellence.</p>
           <button className="cta-button" onClick={() => window.location.href='https://forms.gle/7PHhF8GzDUY33CKHA'}>Apply Now</button>
