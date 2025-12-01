@@ -40,15 +40,15 @@ export default function Home() {
           <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
             <li><a href="#about" onClick={closeMenu}>About</a></li>
             <li><a href="#timeline" onClick={closeMenu}>Previous Year</a></li>
-            <li><a href="https://forms.gle/7PHhF8GzDUY33CKHA" onClick={closeMenu}>Register</a></li>
+            <li><a href="https://forms.gle/jiEVtL29jpaokYdPA" onClick={closeMenu}>Register</a></li>
           </ul>
         </nav>
 
         <div className="hero-content">
           <h1 className="main-title">CS CUP CAMBODIA</h1>
           <h2 className="year">2025</h2>
-          <p className="tagline">The premier programming competition for junior developers. Test your skills, compete with peers, and showcase your coding excellence.</p>
-          <button className="cta-button" onClick={() => window.location.href='https://forms.gle/7PHhF8GzDUY33CKHA'}>Apply Now</button>
+          <p className="tagline">The premier programming competition for university students. Test your skills, compete with peers, and showcase your coding excellence.</p>
+          <button className="cta-button" onClick={() => window.location.href='https://forms.gle/jiEVtL29jpaokYdPA'}>Apply Now</button>
         </div>
 
         <div className="footer-badge">Powered by ParagonIU</div>
@@ -56,9 +56,9 @@ export default function Home() {
       
       <section id="about">
         <div className="about-container">
-          <h2>About CS CUP Junior 2025</h2>
+          <h2>About CS CUP CAMBODIA 2025</h2>
           <p>
-            CS CUP Junior 2025 is the ultimate programming competition for aspiring junior developers. 
+            CS CUP Junior 2025 is the ultimate programming competition for aspiring university students. 
             Compete with peers, solve challenging problems, and showcase your coding skills on a global stage.
           </p>
           <p>
@@ -69,22 +69,22 @@ export default function Home() {
             <div className="card">
               <div className="card-icon"></div>
               <h3 className="card-title">Timeline</h3>
-              <p className="card-description">20th - 26th October 2025
-                <br />1st Round : Online<br />
-                2nd Round : ParagonIU
+              <p className="card-description">
+                <br />1st Round : 12 - 19th Dec 2025 (Online)<br />
+                2nd Round : 21st Dec 2025 (ParagonIU)
               </p>
             </div>
 
             <div className="card">
               <div className="card-icon"></div>
               <h3 className="card-title">Who can join?</h3>
-              <p className="card-description">Grade 10 , 11 , 12 <br />Fresh graduated from grade 12<br /></p>
+              <p className="card-description">University students <br />(Can be any majors)<br /></p>
             </div>
 
             <div className="card">
               <div className="card-icon"></div>
               <h3 className="card-title">Prize Pools</h3>
-              <p className="card-description">T-shirt <br /> Certificate <br />Cash Prize or Scholarship</p>
+              <p className="card-description">T-shirt <br /> Certificate <br />(More will be announced)</p>
             </div>
             
             <div className="card">
@@ -98,6 +98,7 @@ export default function Home() {
               <h3 className="card-title">Provided</h3>
               <p className="card-description">• High-speed internet<br />• Computer (2nd Round)<br />• Competition platform access</p>
             </div>
+            
           </div>
         </div>
       </section>
@@ -108,14 +109,14 @@ export default function Home() {
           <div style={{ maxWidth: '900px', margin: '0 auto' }}>
             <div className="timeline-item">
               <div className="timeline-title">Click here to view previous years competition: </div>
-              <a href="https://share.google/g0iZC3CoEl2L2AZEA" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'underline' }}>CS CUP JUNIOR 2022 - 2024</a>
+              <a href="https://sites.google.com/paragoniu.edu.kh/cscup/home" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'underline' }}>CS CUP CAMBODIA 2020 - 2024</a>
             </div>
           </div>
         </div>
       </section>
       
       <div className="pic">
-        <h2>CS CUP Junior&apos;s Ceremony</h2>
+        <h2>CS CUP CAMBODIA&apos;s Ceremony</h2>
         <div className="certi">Here are the winners and all participants who received certificates and prizes for their outstanding performance in the competition</div>
         <div className="grid1">
           {[
@@ -142,9 +143,9 @@ export default function Home() {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>CS Cup Junior 2025</h3>
-            <p className="footer-description">Since 2022<br />
-              Cambodia CS Cup Junior designed for high school students. This initiative aims to spark an interest in computer science from a young age and encourage students to explore the fascinating world of technology and programming.</p>
+            <h3>CS Cup CAMBODIA 2025</h3>
+            <p className="footer-description">Since 2020<br />
+              CS Cup CAMBODIA designed for university students. This initiative aims to spark an interest in computer science from a young age and encourage students to explore the fascinating world of technology and programming.</p>
           </div>
           <div className="footer-section">
             <h3>About</h3>
@@ -168,11 +169,11 @@ export default function Home() {
             <h3>Find Us</h3>
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMGRLhzgQMCKLbzmQSWhmKxlddkFgPfGLbvrzKTphpRrnznDcKCKbLKLgCmXHcmjWncRhR" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(255, 255, 255, 0.8)' }}>cambodiacscup@gmail.com</a>
             <p style={{ color: 'rgba(255, 255, 255, 0.8)', marginTop: '20px' }}>No. 8-9, 315, Boeng Kak 1, Tuol Kork, Phnom Penh, Cambodia</p>
-            <p style={{ color: 'rgba(255, 255, 255, 0.8)', marginTop: '10px' }}><a href="#" style={{ color: 'white' }}>CS Cup Juniors 2025</a></p>
+            <p style={{ color: 'rgba(255, 255, 255, 0.8)', marginTop: '10px' }}><a href="#" style={{ color: 'white' }}>CS Cup CAMBODIA 2025</a></p>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2025 CS Cup Juniors. All rights reserved.</p>
+          <p>&copy; 2025 CS Cup CAMBODIA. All rights reserved.</p>
         </div>
       </footer>
     </main>
