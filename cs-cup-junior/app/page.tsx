@@ -58,7 +58,7 @@ export default function Home() {
         <div className="about-container">
           <h2>About CS CUP CAMBODIA 2025</h2>
           <p>
-            CS CUP Junior 2025 is the ultimate programming competition for aspiring university students. 
+            CS CUP CANBODIA 2025 is the ultimate programming competition for aspiring university students. 
             Compete with peers, solve challenging problems, and showcase your coding skills on a global stage.
           </p>
           <p>
@@ -98,6 +98,40 @@ export default function Home() {
               <h3 className="card-title">Provided</h3>
               <p className="card-description">• High-speed internet<br />• Computer (2nd Round)<br />• Competition platform access</p>
             </div>
+            <div className="card">
+  <div className="card-icon"></div>
+  <h3 className="card-title">Social media</h3>
+
+  <a
+    href="https://www.facebook.com/share/1DMgcuVu7r/?mibextid=wwXIfr"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: "white", textDecoration: "underline" }}
+  >
+    Facebook
+  </a>
+  <br />
+
+  <a
+    href="https://www.instagram.com/cscupscambodia?igsh=a2RnNjVqaTR1emZw"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: "white", textDecoration: "underline" }}
+  >
+    Instagram
+  </a>
+  <br />
+
+  <a
+    href=""
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: "white", textDecoration: "underline" }}
+  >
+    Telegram
+  </a>
+</div>
+
             
           </div>
         </div>
